@@ -1,0 +1,45 @@
+{
+    "name": "oxfolder",
+    "version": "0.1-dev",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "sever": "cd ../app && python3 main.py"
+    },
+    "dependencies": {
+        "@antv/g6": "^4.8.24",
+        "@radix-ui/colors": "^3.0.0",
+        "@radix-ui/react-dialog": "^1.0.5",
+        "@types/d3": "^7.4.3",
+        "classnames": "^2.5.1",
+        "d3": "^7.9.0",
+        "graphology": "^0.25.4",
+        "graphology-layout": "^0.6.1",
+        "graphology-layout-force": "^0.2.4",
+        "graphology-layout-forceatlas2": "^0.10.1",
+        "nanoid": "^5.0.6",
+        "next": "14.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-force-graph-2d": "^1.25.4",
+        "react-resize-detector": "^10.0.1",
+        "server-only": "^0.0.1",
+        "sigma": "^3.0.0-beta.16",
+        "use-file-picker": "^2.1.1",
+        "use-text-selection": "^1.1.5"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18.2.73",
+        "@types/react-dom": "^18.2.23",
+        "eslint": "^8",
+        "eslint-config-next": "14.1.0",
+        "graphology-types": "^0.24.7",
+        "prettier": "^3.2.5",
+        "sass": "^1.71.1",
+        "typescript": "^5"
+    }
+}

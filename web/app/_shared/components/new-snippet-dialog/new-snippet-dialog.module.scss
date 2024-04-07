@@ -1,0 +1,73 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+}
+
+.content {
+  background-color: white;
+  width: 600px;
+  border-radius: 6px;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.file-list > div {
+  padding: 8px;
+  margin: 4px;
+  background: #EEEEEE;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  border: 2px solid transparent;
+
+  &.selected {
+    border: 2px solid mediumseagreen;
+  }
+
+  &:hover {
+    opacity: 0.65;
+  }
+}
+
+.text-area {
+  background: #DDD;
+  border-radius: 10px;
+  height: 400px;
+  overflow: auto;
+  padding: 10px;
+
+  ::selection {
+    background-color: yellow;
+  }
+
+  p:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
+.create-button {
+  border: none;
+  margin-top: 20px;
+  background: #19af19;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  color: white;
+  font-size: 16px;
+  padding: 6px 12px;
+
+  &:hover {
+    opacity: 0.62;
+  }
+
+}
+

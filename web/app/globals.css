@@ -1,0 +1,51 @@
+body {
+  --accent-1: #0d0d0d;
+  --accent-2: #171717;
+  --accent-3: #1f1f1f;
+
+  --border-1: #333333;
+  --border-2: #7c7c7c;
+  --border-3: #ccc;
+
+  --text-1: #fff;
+  --text-2: #cbcbcb;
+
+  --primary-1: #45e0bb;
+  --danger-1: #e04545;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: var(--text-1);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+}
+
+input, textarea {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  color: inherit;
+
+  &:focus {
+    outline: none;
+  }
+
+}

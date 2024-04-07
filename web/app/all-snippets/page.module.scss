@@ -1,0 +1,111 @@
+
+.content {
+  padding: 40px 50px;
+}
+
+.content h1 {
+  margin: 14px 0;
+}
+
+.file-list {
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.file-block, .snippet-block {
+  background: #EEE;
+  border-radius: 5px;
+  height: 250px;
+  display: grid;
+}
+
+.file-block {
+  grid-template-rows: 50px auto;
+
+  .file-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  .file-title span {
+    float: right;
+    color: red;
+  }
+
+}
+
+
+.file-abstract {
+  overflow: auto;
+  padding: 0 20px 15px;
+
+  p {
+    margin-top: 15px;
+  }
+
+}
+
+.upload-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  svg {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+
+}
+
+.snippet-block {
+
+  grid-template-rows: 50px 1fr 35px;
+
+  .snippet-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  .snippet-title span {
+    float: right;
+    color: red;
+  }
+
+  .snippet {
+    padding: 10px;
+    font-size: 12px;
+    font-style: italic;
+    overflow: auto;
+  }
+
+  .snippet-footer {
+    border-top: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+}

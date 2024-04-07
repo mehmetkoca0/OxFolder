@@ -1,0 +1,1 @@
+Directory to contain pages of processed documents and their embeddings.

@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  gap: 30px
+}
+
+.graph-container {
+  border: 1px solid var(--border-1);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.info-panel {
+  padding: 25px;
+  border: 1px solid var(--border-1);
+  border-radius: 10px;
+  height: 100%;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  span {
+    color: var(--text-2)
+  }
+
+  .text {
+    color: var(--text-2);
+    font-size: 14px;
+    opacity: 0.8;
+  }
+}

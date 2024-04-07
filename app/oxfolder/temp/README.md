@@ -1,0 +1,1 @@
+Directory containing JSON outputs of the doc processing and embedding.

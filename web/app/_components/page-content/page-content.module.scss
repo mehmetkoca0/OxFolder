@@ -1,0 +1,38 @@
+
+.container {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  height: 100%;
+}
+
+.header {
+  height: 120px;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--border-1);
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: -2px;
+}
+
+.page-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-2);
+}
+
+.gap {
+  height: 25px;
+}
+
+.content {
+  height: 100%;
+}
